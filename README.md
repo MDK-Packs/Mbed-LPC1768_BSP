@@ -1,2 +1,3 @@
-# Mbed-LPC1768_BSP
-This repo contains the board support package for the Mbed LPC1768.
+# Mbed LPC1768 BSP
+
+Mbed LPC1768 board support CMSIS Software Pack.
