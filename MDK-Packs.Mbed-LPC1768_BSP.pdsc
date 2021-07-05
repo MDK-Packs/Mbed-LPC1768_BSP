@@ -55,6 +55,7 @@
     <book category="overview" name="https://os.mbed.com/platforms/mbed-LPC1768/" title="Mbed LPC1768 Web Page"/>
     <book category="setup" name="https://mbed.org/handbook/mbed-NXP-LPC1768-Getting-Started" title="Getting Started"/>
     <book category="schematic" name="Documentation/mbed-005.1.pdf" title="Schematics"/>
+    <book category="other" name="Documentation/README.md" title="Guide"/>
     
     <mountedDevice deviceIndex="0" Dvendor="NXP:11" Dname="LPC1768"/>
     
@@ -62,9 +63,17 @@
     
     <feature type="ODbg" n="1" name="On-board CMSIS-DAP"/>
     <feature type="PWR" n="5" name="USB Powered"/>
-    <feature type="PWR" n="4.5" m="9" name="External Supply"/>
-    <feature type="Edge" n="2" m="20" name="40-pin 0.1 pitch"/>
-    <feature type="ConnOther" n="1" name="JP3 (Idd) for current measurement"/>
+    <feature type="PWR" n="4.5" m="9" name="External Supply (VIN)"/>
+    <feature type="Edge" n="2" m="20" name="40-pin, 1.27 mm Pitch"/>
+    <feature type="I2C" n="2" name="2-Pin Header, 1.27 mm Pitch"/>
+    <feature type="SPI" n="2" name="3-Pin Header, 1.27 mm Pitch"/>
+    <feature type="ETH" n="1" name="4-Pin Header, 1.27 mm Pitch"/>
+    <feature type="USB" n="1" name="2-Pin Header, 1.27 mm Pitch"/>
+    <feature type="CAN" n="1" name="2-Pin Header, 1.27 mm Pitch"/>
+    <feature type="DIO" n="26" name="Up to 26 digital I/Os on Header, 1.27 mm Pitch"/>
+    <feature type="AIO" n="6" name="Up to 6 analog inputs, 1 analog output on Header, 1.27 mm Pitch"/>
+    <feature type="ConnOther" n="6" name="Up to 6 PWM outputs on Header, 1.27 mm Pitch"/>
+    <feature type="ConnOther" n="3" name="UART on 2-Pin Header, 1.27 mm Pitch"/>
     <feature type="Button" n="1" name="Push-buttons: Reset"/>
     <feature type="LED" n="4" name="Four blue user LEDs"/>
     <feature type="CustomFF" n="54" m="26" name="DIP Package Formfactor"/>
