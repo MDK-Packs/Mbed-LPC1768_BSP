@@ -12,46 +12,46 @@ It is based on the NXP LPC1768, with a 32-bit Arm Cortex-M3 core running at 96 M
 
 | Pin | Function     | Alternate Function |
 |-----|--------------|--------------------|
-| GND | Ground       | N/A                |
-| VIN | 4.5 V - 9 V  | N/A                |
-| VB  | VBat         | N/A                |
-| nR  | nRESET       | N/A                |
-| P5  | SPI MOSI     | N/A                |
-| P6  | SPI MISO     | N/A                |
-| P7  | SPI SCK      | N/A                |
-| P8  | N/A          | N/A                |
+| GND | Ground       |                    |
+| VIN | 4.5 V - 9 V  |                    |
+| VB  | VBat         |                    |
+| nR  | nRESET       |                    |
+| P5  | SPI MOSI     |                    |
+| P6  | SPI MISO     |                    |
+| P7  | SPI SCK      |                    |
+| P8  | Digital I/O  |                    |
 | P9  | UART TX      | I2C SDA            |
 | P10 | UART RX      | I2C SCL            |
-| P11 | SPI MOSI     | N/A                |
-| P12 | SPI MISO     | N/A                |
+| P11 | SPI MOSI     |                    |
+| P12 | SPI MISO     |                    |
 | P13 | SPI SCK      | UART TX            |
-| P14 | UART RX      | N/A                |
-| P15 | AnalogIn     | N/A                |
-| P16 | AnalogIn     | N/A                |
-| P17 | AnalogIn     | N/A                |
+| P14 | UART RX      |                    |
+| P15 | AnalogIn     |                    |
+| P16 | AnalogIn     |                    |
+| P17 | AnalogIn     |                    |
 | P18 | AnalogIn     | AnalogOut          |
-| P19 | AnalogIn     | N/A                |
-| P20 | AnalogIn     | N/A                |
-| P21 | PWMOut       | N/A                |
-| P22 | PWMOut       | N/A                |
-| P23 | PWMOut       | N/A                |
-| P24 | PWMOut       | N/A                |
-| P25 | PWMOut       | N/A                |
-| P26 | PWMOut       | N/A                |
+| P19 | AnalogIn     |                    |
+| P20 | AnalogIn     |                    |
+| P21 | PWMOut       |                    |
+| P22 | PWMOut       |                    |
+| P23 | PWMOut       |                    |
+| P24 | PWMOut       |                    |
+| P25 | PWMOut       |                    |
+| P26 | PWMOut       |                    |
 | P27 | UART RX      | I2C SCL            |
 | P28 | UART TX      | I2C SDA            |
-| P29 | CAN TD       | N/A                |
-| P30 | CAN RD       | N/A                |
-| D+  | USB D+       | N/A                |
-| D-  | USB D-       | N/A                |
-| TD+ | Ethernet TD+ | N/A                |
-| TD- | Ethernet TD- | N/A                |
-| RD+ | Ethernet RD+ | N/A                |
-| RD- | Ethernet RD- | N/A                |
-| IF+ |              | N/A                |
-| IF- |              | N/A                |
-| VU  | 5 V USB Out  | N/A                |
-| VOUT| 3.3 V Out    | N/A                |
+| P29 | CAN TD       |                    |
+| P30 | CAN RD       |                    |
+| D+  | USB D+       |                    |
+| D-  | USB D-       |                    |
+| TD+ | Ethernet TD+ |                    |
+| TD- | Ethernet TD- |                    |
+| RD+ | Ethernet RD+ |                    |
+| RD- | Ethernet RD- |                    |
+| IF+ |              |                    |
+| IF- |              |                    |
+| VU  | 5 V USB Out  |                    |
+| VOUT| 3.3 V Out    |                    |
 
 ## Schematics
 
