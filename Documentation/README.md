@@ -61,6 +61,15 @@ It is based on the NXP LPC1768, with a 32-bit Arm Cortex-M3 core running at 96 M
 
 This board support pack contains a CMSIS-Driver for the [VIO](https://arm-software.github.io/CMSIS_5/develop/Driver/html/group__vio__interface__gr.html) interface. This is a virtual I/O abstraction for peripherals that are typically used in example projects. The **Blinky** example uses this interface to create a running light with the four LEDs mounted on the board.
 
+| VIO Signal | Board Connection |
+|------------|------------------|
+| vioLED0    | LED-1/P1.18      |
+| vioLED1    | LED-2/P1.20      |
+| vioLED2    | LED-3/P1.21      |
+| vioLED3    | LED-4/P1.23      |
+
+Refer to the [schematics](#schematics) for board connection information.
+
 ## Firmware
 
 Make sure that you have updated your CMSIS-DAP firmware to the latest version. This makes the board compatible with [Keil Studio Cloud](https://keil.arm.com) that enables browser-based project creation and debugging:
