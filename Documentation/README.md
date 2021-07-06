@@ -4,7 +4,7 @@
 
 The Mbed NXP LPC1768 development board is designed for prototyping all sorts of devices, especially those including Ethernet, USB, and the flexibility of lots of peripheral interfaces and flash memory. It is packaged as a small DIP form-factor for prototyping with through-hole PCBs, stripboard and breadboard, and includes a built-in CMSIS-DAP debug adapter.
 
-It is based on the NXP LPC1768, with a 32-bit Arm Cortex-M3 core running at 96 MHz. It includes 512 KB flash memory, 32 KB RAM and lots of interfaces including built-in Ethernet, USB Host and Device, CAN, SPI, I2C, ADC, DAC, PWM and other I/O interfaces. The pinout below shows the commonly used interfaces and their locations. Note that all the numbered pins (P5 - P30) can also be used as digital input and output interfaces.
+It is based on the NXP LPC1768, with a 32-bit Arm Cortex-M3 core running at 96 MHz. It includes 512 KB flash memory, 32 KB RAM and lots of interfaces including built-in Ethernet (with PHY), USB Host and Device, CAN, SPI, I2C, ADC, DAC, PWM and other I/O interfaces. The pinout below shows the commonly used interfaces and their locations. Note that all the numbered pins (P5 - P30) can also be used as digital input and output interfaces.
 
 ## Pinout
 

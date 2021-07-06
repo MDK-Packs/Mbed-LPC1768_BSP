@@ -67,7 +67,7 @@
     <feature type="Edge" n="2" m="20" name="40-pin, 1.27 mm Pitch"/>
     <feature type="I2C" n="2" name="2-Pin Header, 1.27 mm Pitch"/>
     <feature type="SPI" n="2" name="3-Pin Header, 1.27 mm Pitch"/>
-    <feature type="ETH" n="1" name="4-Pin Header, 1.27 mm Pitch"/>
+    <feature type="ETH" n="1" name="PHY DP83848J connected to 4-Pin Header, 1.27 mm Pitch"/>
     <feature type="USB" n="1" name="2-Pin Header, 1.27 mm Pitch"/>
     <feature type="CAN" n="1" name="2-Pin Header, 1.27 mm Pitch"/>
     <feature type="DIO" n="26" name="Up to 26 digital I/Os on Header, 1.27 mm Pitch"/>
